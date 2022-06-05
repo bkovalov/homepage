@@ -125,9 +125,9 @@ body {
 
   .contact-info__avatar {
       border-radius: 50%;
-      width: 100px;
-      height: 100px;
-      object-fit: cover;
+      width: 110px;
+      height: 110px;
+      object-fit: contain;
       border: 3px solid;
       border-color: var(--text-decoration-color);
   }
@@ -242,11 +242,12 @@ body {
 .additional-info__education-university-speciality {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
+    margin-bottom: 10px;
 }
 
 .additional-info__languages {
