@@ -1,42 +1,89 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css">;
-    <meta name="viewport" content="width=device-width, initial-scale=1" />;
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0694306b86.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <title>Résumé</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <!-- ― Hello World! &#x1F609; -->
     <!-- Primary content template -->
     <main>
       <div class="resume">
         <div class="container">
           <div class="resume__block">
-            <h1 class="contact-info__header">Bulka</h1>
-            <h3 class="contact-info__sub-header">Senior Hooman Manager</h3>
+            <h1 class="contact-info__header">Bohdan Kovalov</h1>
+            <h3 class="contact-info__sub-header">QA beginner with PM & teaching skills</h3>
     
             <div class="contact_info_container fh">
               <div class="contact-info__block">
-                <!-- Contact info item -->
-                <a href="" rel="author" class="contact-info__item">
+                <!-- Contact info item 1 -->
+                <a rel="author" class="contact-info__item">
                   <div class="contact-info__item-icon-wrapper">
-                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                      <path
-                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                      </path>
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                      <path d="M16.557,4.467h-1.64v-0.82c0-0.225-0.183-0.41-0.409-0.41c-0.226,0-0.41,0.185-0.41,0.41v0.82H5.901v-0.82c0-0.225-0.185-0.41-0.41-0.41c-0.226,0-0.41,0.185-0.41,0.41v0.82H3.442c-0.904,0-1.64,0.735-1.64,1.639v9.017c0,0.904,0.736,1.64,1.64,1.64h13.114c0.904,0,1.64-0.735,1.64-1.64V6.106C18.196,5.203,17.461,4.467,16.557,4.467 M17.377,15.123c0,0.453-0.366,0.819-0.82,0.819H3.442c-0.453,0-0.82-0.366-0.82-0.819V8.976h14.754V15.123z M17.377,8.156H2.623V6.106c0-0.453,0.367-0.82,0.82-0.82h1.639v1.23c0,0.225,0.184,0.41,0.41,0.41c0.225,0,0.41-0.185,0.41-0.41v-1.23h8.196v1.23c0,0.225,0.185,0.41,0.41,0.41c0.227,0,0.409-0.185,0.409-0.41v-1.23h1.64c0.454,0,0.82,0.367,0.82,0.82V8.156z"></path>
                     </svg>
                   </div>
-                  <span>Lviv, Ukraine</span>
+                  <span><b>I'm 36 years old</b></span>
                 </a>
-
+                <!-- Contact info item 1.1 -->
+                <a href="https://en.wikipedia.org/wiki/Sumy" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                      <path d="M10,1.375c-3.17,0-5.75,2.548-5.75,5.682c0,6.685,5.259,11.276,5.483,11.469c0.152,0.132,0.382,0.132,0.534,0c0.224-0.193,5.481-4.784,5.483-11.469C15.75,3.923,13.171,1.375,10,1.375 M10,17.653c-1.064-1.024-4.929-5.127-4.929-10.596c0-2.68,2.212-4.861,4.929-4.861s4.929,2.181,4.929,4.861C14.927,12.518,11.063,16.627,10,17.653 M10,3.839c-1.815,0-3.286,1.47-3.286,3.286s1.47,3.286,3.286,3.286s3.286-1.47,3.286-3.286S11.815,3.839,10,3.839 M10,9.589c-1.359,0-2.464-1.105-2.464-2.464S8.641,4.661,10,4.661s2.464,1.105,2.464,2.464S11.359,9.589,10,9.589"></path>
+                    </svg>
+                  </div>
+                  <span><b>I live in Sumy, Ukraine</b></span>
+                </a>
+                <!-- Contact info item 1.2 -->
+                <a href="https://ua.linkedin.com/in/bohdan-kovalov-271b20194" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg viewBox="0 0 512 512">
+                      <path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"/>
+                    </svg>
+                  </div>
+                  <span><b>Visit my LinkedIn profile</b></span>
+                </a>
               </div>
             
               <div class="contact-info__block contact-info__block--center">
-                <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar">
+                <img class="contact-info__avatar" src="assets/avatar.jpg" alt="Avatar">
               </div>
     
-              <div class="contact-info__block"></div>
+              <div class="contact-info__block">
+
+                <!-- Contact info item 2 -->
+                <a href="mailto:bohdanlkovalov@gmail.com" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                      <path d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"></path>
+                    </svg>
+                  </div>
+                  <span><b>bohdanlkovalov@gmail.com</b></span>
+                </a>
+                <!-- Contact info item 2.1 -->
+                <a rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                      <path d="M13.372,1.781H6.628c-0.696,0-1.265,0.569-1.265,1.265v13.91c0,0.695,0.569,1.265,1.265,1.265h6.744c0.695,0,1.265-0.569,1.265-1.265V3.045C14.637,2.35,14.067,1.781,13.372,1.781 M13.794,16.955c0,0.228-0.194,0.421-0.422,0.421H6.628c-0.228,0-0.421-0.193-0.421-0.421v-0.843h7.587V16.955z M13.794,15.269H6.207V4.731h7.587V15.269z M13.794,3.888H6.207V3.045c0-0.228,0.194-0.421,0.421-0.421h6.744c0.228,0,0.422,0.194,0.422,0.421V3.888z"></path>
+                    </svg>
+                  </div>
+                  <span><b>+380 66 536 71 50</b></span>
+                </a>
+                <!-- Contact info item 2.2 -->
+                <a href="https://www.instagram.com/bohdankovalov/" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                      <path d="M9.969,0.594c-5.195,0-9.406,4.211-9.406,9.406c0,5.195,4.211,9.406,9.406,9.406c5.195,0,9.406-4.211,9.406-9.406C19.375,4.805,15.164,0.594,9.969,0.594 M9.969,18.552c-4.723,0-8.551-3.829-8.551-8.552s3.829-8.551,8.551-8.551S18.521,5.277,18.521,10S14.691,18.552,9.969,18.552 M12.534,5.724H7.403c-0.944,0-1.71,0.766-1.71,1.71v5.131c0,0.944,0.766,1.71,1.71,1.71h5.131c0.944,0,1.71-0.766,1.71-1.71V7.435C14.244,6.49,13.479,5.724,12.534,5.724M11.679,7.007h1.283V8.29h-1.283V7.007z M9.969,8.29c0.944,0,1.71,0.766,1.71,1.71s-0.766,1.71-1.71,1.71s-1.71-0.766-1.71-1.71S9.024,8.29,9.969,8.29 M13.39,12.565c0,0.472-0.384,0.854-0.855,0.854H7.403c-0.472,0-0.855-0.383-0.855-0.854V9.573h0.898C7.423,9.712,7.403,9.854,7.403,10c0,1.417,1.149,2.565,2.565,2.565c1.416,0,2.565-1.148,2.565-2.565c0-0.146-0.02-0.288-0.043-0.427h0.898V12.565z"></path>
+                    </svg>
+                  </div>
+                  <span><b>Visit my Instagram page</b></span>
+                </a>
+
+
+              </div>
             </div>
           </div>
         </div>
@@ -51,14 +98,93 @@
                   </path>
                 </svg>
               </div>
-              <p class="intro_text">Meow.
-                I am a Binary Studio cat. Still got 7 lives. Work in IT, Full Stack Evil, 
-                all I do is sleep and try to help out hoomans with their projects whenever 
-                they need me.
+              <p class="intro_text">Hi!
+                I am a Binary Studio Academy candidate. I have worked at university for 11 years. Also I have managed the youth projects for 6 years. I'm going to switch to IT thus I'm studying QA and JS now. I hope to complete all tasks successfully to be enrolled to Binary Studio Academy.
               </p>
             </div>
           </div>
         </div>
+        <!-- Skills block -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">Problem solving, analytical thinking, interpersonal communication, team management, public speaking. </p>
+            </div>
+          </div>
+        </div>
+        <!-- Experience block template -->
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+
+              <!-- Experiences -->
+              <div class="experiences">
+                
+                <div class="experiences">
+                  <h3 class="experiences__header">Experience</h3>
+                  <div class="experiences__company">
+                    <div class="experiences__company-header">
+                      <span class="experiences__company-header-durability">2011-2022</span>
+                      <h3 class="experiences__company-header-name">Sumy State University</h3>
+                    </div>
+                
+                    <div class="experiences__company-project">
+                      <span class="experiences__company-project-role">Lecturer</span>
+                      <h3 class="experiences__company-project-name">Department of Economics, Entrepreneurship and Business Administration</h3>
+                      <ul class="experiences__company-project-responsibilities">
+                        <li>Teaching</li>
+                        <li>Project management</li>
+                        <li>Students coordinating</li>
+                        <li>Research</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <!-- Additional info -->
+              <div class="additional-info fv">
+
+                <div class="additional-info fv">
+                  <div class="additional-info__education">
+                    <h3 class="additional-info__education-header">Education</h3>
+                    <div class="additional-info__education-university">
+                      <span class="additional-info__education-university-durability">2008</span>
+                      <h3 class="additional-info__education-university-speciality">Information technology of design</h3>
+                      <p class="additional-info__education-university-name">Sumy State University</p>
+                    </div>
+                    <div class="additional-info__education-university">
+                      <span class="additional-info__education-university-durability">2011</span>
+                      <h3 class="additional-info__education-university-speciality">PhD in Economics</h3>
+                      <p class="additional-info__education-university-name">Sumy State University</p>
+                    </div>
+                    <div class="additional-info__education-university">
+                      <span class="additional-info__education-university-durability">2022</span>
+                      <h3 class="additional-info__education-university-speciality">Manual QA</h3>
+                      <p class="additional-info__education-university-name">QATestLab short-term course</p>
+                    </div>
+                  </div>
+                
+                  <div class="additional-info__languages">
+                    <h3 class="additional-info__languages-header">Languages</h3>
+                    <p class="additional-info__languages-item">
+                      Ukrainian (native)
+                    </p>
+                    <p class="additional-info__languages-item">
+                      Russian (fluent)
+                    </p>
+                    <p class="additional-info__languages-item">
+                      English (Intermediate+)
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </main>
   </body>
